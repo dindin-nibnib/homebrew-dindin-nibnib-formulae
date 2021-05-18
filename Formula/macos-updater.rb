@@ -5,17 +5,11 @@ class MacosUpdater < Formula
   sha256 "b25a6e0d5b1f07cf23b493f3da215ab161fc91dff09ffa242827e4d08f861fbf"
   license "BSD-2-Clause"
 
-  bottle do
-    chmod "a+x", "configure"
-    chmod "a+x", "macos-updater"
-    system "./configure", bin.to_s
-    chmod "a+x", "#{bin}/macos-updater"
-  end
-  
+  bottle :unneeded  
   depends_on "mas"
 
   def install
-    system "./configure", bin.to_s
+    bin.install "macos-updater"
   end
 
   test do
