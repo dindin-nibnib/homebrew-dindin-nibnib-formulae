@@ -10,8 +10,7 @@ class MacosUpdater < Formula
 
   def install
     bin.install "macos-updater"
-    system "chmod 755 #{bin}/macos-updater"
-    system "chmod a+x #{bin}/macos-updater"
+    system "config", "${bin}"
   end
 
   test do
