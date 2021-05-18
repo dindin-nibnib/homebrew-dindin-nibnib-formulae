@@ -13,7 +13,7 @@ class MacosUpdater < Formula
     chmod "a+x", "configure"
     chmod "a+x", "macos-updater"
     system "./configure", bin.to_s
-    chmod "a+x", "#{bin}/macos_updater"
+    chmod "a+x", "#{bin}/macos-updater"
   end
 
   test do
