@@ -10,7 +10,7 @@ class MacosUpdater < Formula
 
   def install
     bin.install "macos-updater"
-    system "config", "#{bin}"
+    system "config", bin.to_s
   end
 
   test do
