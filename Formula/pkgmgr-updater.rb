@@ -2,7 +2,7 @@ class PkgmgrUpdater < Formula
   desc "Checks homebrew, macports, pkgsrc or nix, and updates outdated installations"
   homepage "https://github.com/dindin-glitch/pkgmgr-updater"
   url "https://github.com/dindin-glitch/pkgmgr-updater/archive/1.1.1.tar.gz"
-  sha256 "4df9e61f7e215cc93400bbbf624b01d36488a71e532288828262bc1db5af52e2"
+  sha256 "8c1eed6d6d34ebd3a23b4d706ab5031625f631bfb935fad85de0792b66c9035a"
   license "BSD-2-Clause"
 
   bottle :unneeded  
