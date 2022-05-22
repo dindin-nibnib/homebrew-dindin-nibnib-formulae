@@ -5,7 +5,6 @@ class PkgmgrUpdater < Formula
   sha256 "b6f560793ab8c0673e481ef0b47eeecd1ddaefc676dd9966bc68d9762332aec7"
   license "BSD-2-Clause"
 
-  bottle :unneeded  
   depends_on "mas"
 
   def install
